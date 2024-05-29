@@ -1,0 +1,29 @@
+{
+  "name": "parser_bot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start:prod": "node src/app.js",
+    "start:dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "parser",
+    "pdf",
+    "csv",
+    "doc",
+    "docs"
+  ],
+  "author": "Amiya Ranjan",
+  "license": "ISC",
+  "description": "Bot for parsing the .pdf, .docx, .csv to .txt file",
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5",
+    "mammoth": "^1.7.2",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
